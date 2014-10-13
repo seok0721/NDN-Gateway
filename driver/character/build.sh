@@ -1,4 +1,5 @@
 #!/bin/sh
+# 빌드 스크립트 입니다.
 
 DEVICE_NAME="ssm_echo"
 MAJOR=$(cat /proc/devices | grep $DEVICE_NAME | cut -d ' ' -f 1)
